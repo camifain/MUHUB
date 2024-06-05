@@ -63,6 +63,7 @@ img {
   width: 100%;
   text-align: center;
   margin: 0px;
+  padding-top: 10px;
 }
 
 .fotoondassonoras {
@@ -119,49 +120,6 @@ h1{
   background-color:darkslategray
 }
 
-/*.grilla {
-   display: grid;
-   grid-template-columns: 1fr 1fr;
-   grid-template-areas:  "intro intro"
-                         "noticia1 noticia 2";
-}
-
-.header-index {
-  grid-area: header;
-}
-
-.intro {
-  grid-area: intro;
-}
-
-.titulo-secundariol {
-  grid-area: noticia1;
-}
-
-.titulo-segundo {
-  grid-area: noticia2;
-}
-
-.footer-index {
-  grid-area: footer;
-}
-*/
-
-/*.container {
-  width: 90%;
-  max-width: 120px;
-  margin: auto;
-  padding: 40px 0;
-
-  display: flex;
-  gap: 20px;
-}
-
-
-.mujeresescuchandomusica {
-  width: 200px;
-  height: 100px;
-}
 
 /* .position  {
   /* position sticky
@@ -192,18 +150,7 @@ h1{
   
 }
 
-.grid-item {
-  border: 3px;
-}
 
-#grilla {
-  display: grid;
-  grid-template-rows: 100px 1fr 1fr 75px;
-  grid-template-columns: 20% 1fr 15%;
-  grid-template-areas: 
-  "Titulo  Titulo 2"
-  "NOTICIA  NOTICIA2 " ;
-}
 
 /* FOOTER */
 footer {
