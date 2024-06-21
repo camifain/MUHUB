@@ -1,0 +1,41 @@
+/* regala de Media Query */
+/* Mobile */
+@media only screen and (max-width: 420px) {
+    body {
+      background-color: rgb(140, 140, 146);
+      font-size: 14px;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  
+    .proyectos {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 10px
+    }
+  
+    .titulo-proyectos {
+      grid-column: 2/4;
+    }
+  }
+  
+  /* Tablet */
+  @media only screen and (min-width: 421px) and (max-width: 960px) {
+    body {
+      background-color: lightcoral;
+      font-size: 14px;
+    }
+  
+    header {
+      flex-direction: column;
+    }
+  }
+  
+  /* Desktop */
+  @media only screen and (min-width: 961px) {
+    body {
+      background-color: rgb(187, 194, 194);
+    }
+  }

@@ -1,0 +1,206 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: lightgrey;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header nav {
+  background-color: gray;
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  text-indent: 10px;
+  margin: 0px;
+  padding: 10px;
+  position: sticky;
+  top: o;
+  background-image: linear-gradient(to left, grey, rgb(100, 98, 98), rgb(69, 69, 69));
+}
+header nav ul li {
+  display: inline-block;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: right;
+  text-indent: 10px;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Selectores de clases*/
+.header-nav {
+  background-color: gray;
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  text-indent: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+#intro {
+  background-color: beige;
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+  padding-top: 10px;
+  background-image: linear-gradient(to right, beige, rgb(232, 232, 151), rgb(217, 217, 99));
+}
+
+.fotoondassonoras {
+  width: 100%;
+  height: 150px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h1:hover {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h2:hover {
+  font-size: 25px;
+}
+
+h1 {
+  margin-top: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-rows: 50px 100px;
+  grid-template-columns: 50% 50%;
+  justify-content: flex-start;
+  grid-template-areas: "titulo-uno  titulo-dos" "NOTICIA  NOTICIA2 ";
+}
+
+.mujeresescuchandomusica {
+  height: 150px;
+  width: 220px;
+}
+
+.notasmusicales {
+  width: 220px;
+  height: 150px;
+}
+
+.ejemplo-link:link {
+  background-color: darkslategray;
+}
+
+footer {
+  display: flex;
+  padding: 10px 0;
+  position: bottom;
+  width: 100%;
+  bottom: 0;
+}
+
+.flex-container {
+  border: 2px solid black;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.foto {
+  width: auto;
+  height: auto;
+  flex: 1 1 200px;
+}
+
+.formulario {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+label, input {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.boton-enviar {
+  background-color: rgb(203, 228, 228);
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  width: 100%;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.caja {
+  width: 180px;
+  height: 150px;
+  margin: 10px;
+}
+
+/* regala de Media Query */
+/* Mobile */
+@media only screen and (max-width: 420px) {
+  body {
+    background-color: rgb(140, 140, 146);
+    font-size: 14px;
+  }
+  header {
+    flex-direction: column;
+  }
+  .proyectos {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+  }
+  .titulo-proyectos {
+    grid-column: 2/4;
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 421px) and (max-width: 960px) {
+  body {
+    background-color: lightcoral;
+    font-size: 14px;
+  }
+  header {
+    flex-direction: column;
+  }
+}
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: rgb(187, 194, 194);
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

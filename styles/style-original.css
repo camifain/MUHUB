@@ -22,6 +22,7 @@ header nav {
   padding: 10px;
   position: sticky;
   top: o;
+  background-image: linear-gradient(to left, grey, rgb(100, 98, 98), rgb(69, 69, 69));
 }
 
 
@@ -64,6 +65,7 @@ img {
   text-align: center;
   margin: 0px;
   padding-top: 10px;
+  background-image: linear-gradient(to right, beige, rgb(232, 232, 151), rgb(217, 217, 99));
 }
 
 .fotoondassonoras {

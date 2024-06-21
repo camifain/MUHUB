@@ -1,0 +1,23 @@
+.grid-layout { 
+    display: grid;
+    grid-template-rows: 50px 100px;
+    grid-template-columns: 50% 50%;
+    justify-content: flex-start;
+    grid-template-areas:
+      "titulo-uno  titulo-dos"
+      "NOTICIA  NOTICIA2 ";
+  }
+  
+  .mujeresescuchandomusica {
+    @include tamanios (150px, 220px) 
+  }
+  
+  .notasmusicales {
+    width: 220px;
+    height: 150px;
+  }
+  
+  .ejemplo-link:link {
+    background-color:darkslategray
+  }
+  
