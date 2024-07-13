@@ -90,6 +90,20 @@ h2 {
   margin-top: 30px;
 }
 
+#bola {
+  width: 100px;
+  animation-name: mover;
+  animation-duration: 8s;
+}
+
+@keyframes mover {
+  10% {
+    margin-left: 70%;
+  }
+  15% {
+    transform: rotate(180deg);
+  }
+}
 .grid-layout {
   display: grid;
   grid-template-rows: 50px 100px;
